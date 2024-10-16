@@ -1,0 +1,46 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "80"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "17"
+    ],
+    "filament_flow_ratio": [
+        "0.995"
+    ],
+    "filament_settings_id": [
+        "Giantarm PETG @Ender-3V3-KE"
+    ],
+    "filament_vendor": [
+        "Giantarm"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "inherits": "Creality Generic PETG @Ender-3V3-all",
+    "is_custom_defined": "0",
+    "name": "Giantarm PETG @Ender-3V3-KE",
+    "nozzle_temperature_range_high": [
+        "250"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "pressure_advance": [
+        "0.105"
+    ],
+    "version": "2.1.1.0"
+}
