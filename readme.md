@@ -7,4 +7,4 @@ I also have some profiles for Smart Materials filament Smartfil
 Probably they can be better... any suggestion is welcome.
 
 Folder in macos
-/Users/<user>/Library/Application Support/OrcaSlicer/user
+~/Library/Application Support/OrcaSlicer/user
