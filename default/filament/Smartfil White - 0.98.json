@@ -1,17 +1,35 @@
 {
+    "close_fan_the_first_x_layers": [
+        "2"
+    ],
     "default_filament_colour": [
         "#FFFFFF"
     ],
     "enable_pressure_advance": [
         "1"
     ],
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "90"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
     "filament_density": [
         "1.25"
+    ],
+    "filament_max_volumetric_speed": [
+        "23"
     ],
     "filament_settings_id": [
         "Smartfil White - 0.98"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "7"
+    ],
     "hot_plate_temp": [
         "60"
     ],
@@ -22,13 +40,16 @@
     "is_custom_defined": "0",
     "name": "Smartfil White - 0.98",
     "nozzle_temperature": [
-        "195"
+        "200"
     ],
     "nozzle_temperature_initial_layer": [
-        "205"
+        "210"
     ],
     "pressure_advance": [
         "0.074"
+    ],
+    "slow_down_layer_time": [
+        "5"
     ],
     "version": "1.9.0.2"
 }
