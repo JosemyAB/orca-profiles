@@ -3,7 +3,7 @@
         "2"
     ],
     "default_filament_colour": [
-        "#FFFFFF"
+        "#FC7908"
     ],
     "enable_pressure_advance": [
         "1"
@@ -20,11 +20,17 @@
     "filament_density": [
         "1.25"
     ],
-    "filament_max_volumetric_speed": [
-        "23"
+    "filament_end_gcode": [
+        "; filament end gcode \nCLEAR_ACTIVE_SPOOL\n"
+    ],
+    "filament_flow_ratio": [
+        "1"
     ],
     "filament_settings_id": [
-        "Smartfil White - 0.98"
+        "Smartfil Orange"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=17\n"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -38,12 +44,12 @@
     ],
     "inherits": "Creality Generic PLA @Ender-3V3-all",
     "is_custom_defined": "0",
-    "name": "Smartfil White - 0.98",
+    "name": "Smartfil Orange",
     "nozzle_temperature": [
-        "200"
+        "195"
     ],
     "nozzle_temperature_initial_layer": [
-        "210"
+        "200"
     ],
     "pressure_advance": [
         "0.074"

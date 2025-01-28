@@ -1,12 +1,27 @@
 {
+    "close_fan_the_first_x_layers": [
+        "2"
+    ],
     "default_filament_colour": [
         "#FB0207"
     ],
     "enable_pressure_advance": [
         "1"
     ],
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "90"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
     "filament_cost": [
         "19"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
     ],
     "filament_flow_ratio": [
         "0.94"
@@ -14,7 +29,13 @@
     "filament_settings_id": [
         "Creality PLA High Speed - Red - PA 0.06 - F 0.94"
     ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=15"
+    ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "7"
+    ],
     "hot_plate_temp": [
         "60"
     ],
@@ -29,6 +50,9 @@
     ],
     "pressure_advance": [
         "0.06"
+    ],
+    "slow_down_layer_time": [
+        "5"
     ],
     "version": "2.0.2.0"
 }
