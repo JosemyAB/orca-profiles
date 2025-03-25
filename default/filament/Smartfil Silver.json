@@ -3,7 +3,7 @@
         "2"
     ],
     "default_filament_colour": [
-        "#C0C0C0"
+        "#7F7F7F"
     ],
     "enable_pressure_advance": [
         "1"
@@ -17,23 +17,26 @@
     "fan_min_speed": [
         "30"
     ],
+    "filament_cost": [
+        "12"
+    ],
     "filament_density": [
         "1.25"
     ],
     "filament_end_gcode": [
         "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
     ],
-    "filament_flow_ratio": [
-        "1"
-    ],
     "filament_max_volumetric_speed": [
         "21"
     ],
+    "filament_notes": [
+        "Volumetric speed +25"
+    ],
     "filament_settings_id": [
-        "Smartfil Grey"
+        "Smartfil Silver"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=8"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=9"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -47,7 +50,7 @@
     ],
     "inherits": "Creality Generic PLA @Ender-3V3-all",
     "is_custom_defined": "0",
-    "name": "Smartfil Grey",
+    "name": "Smartfil Silver",
     "nozzle_temperature": [
         "195"
     ],
