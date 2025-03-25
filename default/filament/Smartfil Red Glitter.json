@@ -30,13 +30,13 @@
         "0.99"
     ],
     "filament_max_volumetric_speed": [
-        "21"
+        "20"
     ],
     "filament_settings_id": [
         "Smartfil Red Glitter"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\n\nSET_ACTIVE_SPOOL ID=5"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=5"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -46,13 +46,16 @@
         "60"
     ],
     "hot_plate_temp_initial_layer": [
-        "65"
+        "60"
     ],
     "inherits": "Creality Generic PLA @Ender-3V3-all",
     "is_custom_defined": "0",
     "name": "Smartfil Red Glitter",
     "nozzle_temperature": [
-        "218"
+        "205"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
     ],
     "nozzle_temperature_range_high": [
         "220"

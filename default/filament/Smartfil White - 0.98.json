@@ -20,11 +20,17 @@
     "filament_density": [
         "1.25"
     ],
+    "filament_end_gcode": [
+        "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
+    ],
     "filament_max_volumetric_speed": [
-        "23"
+        "21"
     ],
     "filament_settings_id": [
         "Smartfil White - 0.98"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=3"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -40,10 +46,10 @@
     "is_custom_defined": "0",
     "name": "Smartfil White - 0.98",
     "nozzle_temperature": [
-        "200"
+        "195"
     ],
     "nozzle_temperature_initial_layer": [
-        "210"
+        "200"
     ],
     "pressure_advance": [
         "0.074"
