@@ -1,0 +1,11 @@
+{
+    "from": "User",
+    "inherits": "Creality Ender-3 V3 KE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "SET_GCODE_VARIABLE MACRO=PRINTER_PARAM VARIABLE=fan0_min VALUE=30 ;compensate for fan speed\nSET_VELOCITY_LIMIT ACCEL_TO_DECEL=2500 ;revert accel_to_decel back to 2500\nM220 S100 ;Reset Feedrate\nM221 S100 ;Reset Flowrate\n\nM140 S[bed_temperature_initial_layer_single] ;Set bed temp\nM104 S120 ;Set nozzle temp to 120 degrees (start heating)\nG28 X Y ;Home XY axes\nM190 S[bed_temperature_initial_layer_single] ;Wait for bed temp to stabilize\nG28 Z ;Home Z axis & load bed mesh\n;BED_MESH_CALIBRATE PROBE_COUNT=5,5 ;Auto bed level\nBED_MESH_PROFILE LOAD=default ; Load saved bed mesh\n\nM104 S[nozzle_temperature_initial_layer] ;Set nozzle temp to initial layer temperature\nG1 X-2.0 Y20 Z0.3 F5000.0 ;Move to start position\nG1 Z0.2 ;Lower nozzle to printing height\n\nM109 S[nozzle_temperature_initial_layer] ;Wait for nozzle temp to stabilize\nG92 E0 ;Reset Extruder\n;G1 Y145.0 F1500.0 E15 ;Draw the first line\n;G1 X-1.7 F5000.0 ;Move to side a little\n;G1 Y30 F1500.0 E15 ;Draw the second line\nG92 E0 ;Reset Extruder\n",
+    "name": "Ender-3 V3 KE 0.4 nozzle - TPU - GCode Mesh",
+    "print_host": "192.168.1.24:4409",
+    "printer_notes": "Retraction lenght 0,8\nRetractio nspeed 50",
+    "printer_settings_id": "Ender-3 V3 KE 0.4 nozzle - TPU - GCode Mesh",
+    "version": "2.0.2.0"
+}
