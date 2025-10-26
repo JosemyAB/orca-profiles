@@ -1,6 +1,6 @@
 {
     "close_fan_the_first_x_layers": [
-        "2"
+        "10"
     ],
     "default_filament_colour": [
         "#FC7908"
@@ -35,9 +35,12 @@
     "filament_start_gcode": [
         "; filament start gcode\nSET_ACTIVE_SPOOL ID=17\n"
     ],
+    "filament_vendor": [
+        "Smart Materials"
+    ],
     "from": "User",
     "full_fan_speed_layer": [
-        "7"
+        "15"
     ],
     "hot_plate_temp": [
         "60"
@@ -49,10 +52,10 @@
     "is_custom_defined": "0",
     "name": "Smartfil Orange",
     "nozzle_temperature": [
-        "195"
+        "200"
     ],
     "nozzle_temperature_initial_layer": [
-        "200"
+        "205"
     ],
     "overhang_fan_threshold": [
         "25%"

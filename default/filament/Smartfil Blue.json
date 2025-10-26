@@ -1,6 +1,6 @@
 {
     "close_fan_the_first_x_layers": [
-        "2"
+        "10"
     ],
     "default_filament_colour": [
         "#18C3FF"
@@ -24,7 +24,7 @@
         "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
     ],
     "filament_max_volumetric_speed": [
-        "23"
+        "21"
     ],
     "filament_settings_id": [
         "Smartfil Blue"
@@ -34,7 +34,7 @@
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "7"
+        "15"
     ],
     "hot_plate_temp_initial_layer": [
         "60"
@@ -43,10 +43,10 @@
     "is_custom_defined": "0",
     "name": "Smartfil Blue",
     "nozzle_temperature": [
-        "195"
+        "200"
     ],
     "nozzle_temperature_initial_layer": [
-        "200"
+        "205"
     ],
     "overhang_fan_threshold": [
         "25%"

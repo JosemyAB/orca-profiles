@@ -48,11 +48,14 @@
     "full_fan_speed_layer": [
         "7"
     ],
+    "hot_plate_temp": [
+        "65"
+    ],
     "inherits": "Creality Generic PETG @Ender-3V3-all",
     "is_custom_defined": "0",
     "name": "Giantarm PETG @Ender-3V3-KE",
     "nozzle_temperature": [
-        "230"
+        "235"
     ],
     "nozzle_temperature_initial_layer": [
         "240"
