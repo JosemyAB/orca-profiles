@@ -1,9 +1,21 @@
 {
+    "close_fan_the_first_x_layers": [
+        "10"
+    ],
     "default_filament_colour": [
         "#0080FF"
     ],
     "enable_pressure_advance": [
         "1"
+    ],
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "90"
+    ],
+    "fan_min_speed": [
+        "30"
     ],
     "filament_cost": [
         "15"
@@ -11,24 +23,39 @@
     "filament_density": [
         "1.25"
     ],
+    "filament_end_gcode": [
+        "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
+    ],
     "filament_flow_ratio": [
         "0.99"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
     ],
     "filament_settings_id": [
         "Smartfil Blue Glitter"
     ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=4"
+    ],
+    "filament_vendor": [
+        "Smart Materials"
+    ],
     "from": "User",
-    "hot_plate_temp": [
-        "60"
+    "full_fan_speed_layer": [
+        "15"
     ],
     "hot_plate_temp_initial_layer": [
-        "65"
+        "60"
     ],
     "inherits": "Creality Generic PLA @Ender-3V3-all",
     "is_custom_defined": "0",
     "name": "Smartfil Blue Glitter",
     "nozzle_temperature": [
-        "218"
+        "205"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
     ],
     "nozzle_temperature_range_high": [
         "220"
@@ -36,8 +63,14 @@
     "nozzle_temperature_range_low": [
         "200"
     ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
     "pressure_advance": [
         "0.0675"
+    ],
+    "slow_down_layer_time": [
+        "5"
     ],
     "version": "1.9.0.2"
 }

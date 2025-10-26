@@ -1,6 +1,6 @@
 {
     "close_fan_the_first_x_layers": [
-        "2"
+        "10"
     ],
     "default_filament_colour": [
         "#E42E2D"
@@ -38,9 +38,12 @@
     "filament_start_gcode": [
         "; filament start gcode\nSET_ACTIVE_SPOOL ID=5"
     ],
+    "filament_vendor": [
+        "Smart Materials"
+    ],
     "from": "User",
     "full_fan_speed_layer": [
-        "7"
+        "15"
     ],
     "hot_plate_temp": [
         "60"
@@ -62,6 +65,9 @@
     ],
     "nozzle_temperature_range_low": [
         "200"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
     ],
     "pressure_advance": [
         "0.0675"

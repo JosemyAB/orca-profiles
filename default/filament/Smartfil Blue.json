@@ -23,9 +23,6 @@
     "filament_end_gcode": [
         "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
     ],
-    "filament_flow_ratio": [
-        "1"
-    ],
     "filament_max_volumetric_speed": [
         "23"
     ],
@@ -39,9 +36,6 @@
     "full_fan_speed_layer": [
         "7"
     ],
-    "hot_plate_temp": [
-        "60"
-    ],
     "hot_plate_temp_initial_layer": [
         "60"
     ],
@@ -53,6 +47,9 @@
     ],
     "nozzle_temperature_initial_layer": [
         "200"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
     ],
     "pressure_advance": [
         "0.074"
