@@ -7,5 +7,6 @@
     "print_host": "192.168.1.24:4409",
     "printer_notes": "Retraction lenght 0,8\nRetractio nspeed 50",
     "printer_settings_id": "Ender-3 V3 KE 0.4 nozzle - Josemy - GCode Mesh",
+    "time_cost": "0.14",
     "version": "2.0.2.0"
 }

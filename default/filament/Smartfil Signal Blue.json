@@ -49,10 +49,10 @@
     "is_custom_defined": "0",
     "name": "Smartfil Signal Blue",
     "nozzle_temperature": [
-        "195"
+        "200"
     ],
     "nozzle_temperature_initial_layer": [
-        "200"
+        "205"
     ],
     "pressure_advance": [
         "0.074"

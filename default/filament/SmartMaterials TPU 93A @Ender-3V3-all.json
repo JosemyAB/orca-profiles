@@ -20,10 +20,16 @@
     "filament_deretraction_speed": [
         "50"
     ],
+    "filament_end_gcode": [
+        "; filament end gcode \nCLEAR_ACTIVE_SPOOL\n"
+    ],
     "filament_flow_ratio": [
         "1.15"
     ],
     "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_retraction_length": [
         "0"
     ],
     "filament_retraction_length": [

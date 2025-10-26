@@ -36,9 +36,6 @@
     "full_fan_speed_layer": [
         "7"
     ],
-    "hot_plate_temp": [
-        "60"
-    ],
     "hot_plate_temp_initial_layer": [
         "60"
     ],
@@ -46,7 +43,13 @@
     "is_custom_defined": "0",
     "name": "Creality PLA High Speed - Red - PA 0.06 - F 0.94",
     "nozzle_temperature": [
-        "210"
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "205"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
     ],
     "pressure_advance": [
         "0.06"

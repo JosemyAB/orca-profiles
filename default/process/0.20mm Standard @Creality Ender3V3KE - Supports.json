@@ -8,6 +8,9 @@
     "is_custom_defined": "0",
     "name": "0.20mm Standard @Creality Ender3V3KE - Supports",
     "outer_wall_speed": "300",
+    "overhang_2_4_speed": "35",
+    "overhang_3_4_speed": "20",
+    "overhang_reverse": "1",
     "print_settings_id": "0.20mm Standard @Creality Ender3V3KE - Supports",
     "reduce_infill_retraction": "0",
     "skirt_distance": "3",
@@ -22,6 +25,5 @@
     "support_type": "tree(manual)",
     "version": "2.0.2.0",
     "wall_loops": "3",
-    "wall_sequence": "inner-outer-inner wall",
     "xy_hole_compensation": "0.1"
 }

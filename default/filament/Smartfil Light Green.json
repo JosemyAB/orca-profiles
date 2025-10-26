@@ -1,9 +1,9 @@
 {
     "close_fan_the_first_x_layers": [
-        "10"
+        "5"
     ],
     "default_filament_colour": [
-        "#18C3FF"
+        "#00FF8C"
     ],
     "enable_pressure_advance": [
         "1"
@@ -17,6 +17,9 @@
     "fan_min_speed": [
         "30"
     ],
+    "filament_cost": [
+        "12"
+    ],
     "filament_density": [
         "1.25"
     ],
@@ -26,36 +29,42 @@
     "filament_max_volumetric_speed": [
         "21"
     ],
+    "filament_notes": [
+        "Volumetric speed +25"
+    ],
     "filament_settings_id": [
-        "Smartfil Blue"
+        "Smartfil Light Green"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=11"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=12"
     ],
     "from": "User",
     "full_fan_speed_layer": [
         "15"
+    ],
+    "hot_plate_temp": [
+        "60"
     ],
     "hot_plate_temp_initial_layer": [
         "60"
     ],
     "inherits": "Creality Generic PLA @Ender-3V3-all",
     "is_custom_defined": "0",
-    "name": "Smartfil Blue",
+    "name": "Smartfil Light Green",
     "nozzle_temperature": [
         "200"
     ],
     "nozzle_temperature_initial_layer": [
         "205"
     ],
-    "overhang_fan_threshold": [
-        "25%"
-    ],
     "pressure_advance": [
         "0.074"
     ],
     "slow_down_layer_time": [
         "5"
+    ],
+    "slow_down_min_speed": [
+        "15"
     ],
     "version": "1.9.0.2"
 }

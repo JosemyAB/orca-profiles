@@ -36,9 +36,6 @@
     "full_fan_speed_layer": [
         "7"
     ],
-    "hot_plate_temp": [
-        "60"
-    ],
     "hot_plate_temp_initial_layer": [
         "60"
     ],
@@ -46,10 +43,13 @@
     "is_custom_defined": "0",
     "name": "Smartfil Grey",
     "nozzle_temperature": [
-        "195"
+        "200"
     ],
     "nozzle_temperature_initial_layer": [
-        "200"
+        "205"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
     ],
     "pressure_advance": [
         "0.074"
