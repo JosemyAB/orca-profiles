@@ -36,7 +36,7 @@
         "Smartfil Light Green"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=12"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=19"
     ],
     "from": "User",
     "full_fan_speed_layer": [

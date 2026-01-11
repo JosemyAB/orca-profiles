@@ -18,7 +18,7 @@
         "30"
     ],
     "filament_cost": [
-        "12"
+        "10.5"
     ],
     "filament_density": [
         "1.25"
@@ -36,7 +36,7 @@
         "Smartfil Yellow"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=10"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=20"
     ],
     "from": "User",
     "full_fan_speed_layer": [
