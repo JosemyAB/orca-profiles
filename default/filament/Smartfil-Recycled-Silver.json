@@ -2,12 +2,8 @@
     "close_fan_the_first_x_layers": [
         "2"
     ],
-    "compatible_printers": [],
     "default_filament_colour": [
-        "#000000"
-    ],
-    "enable_pressure_advance": [
-        "1"
+        "#CCCCCC"
     ],
     "fan_cooling_layer_time": [
         "30"
@@ -18,23 +14,23 @@
     "fan_min_speed": [
         "30"
     ],
-    "filament_cost": [
-        "13"
-    ],
     "filament_density": [
         "1.25"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
     ],
     "filament_max_volumetric_speed": [
         "21"
     ],
     "filament_settings_id": [
-        "Smartfil Black - 205 - 0.9702 - 0.074"
+        "Smartfil-Recycled-Silver"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=13"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=9"
+    ],
+    "filament_vendor": [
+        "Smartfil"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -46,23 +42,20 @@
     "hot_plate_temp_initial_layer": [
         "60"
     ],
-    "inherits": "Creality Generic PLA @Ender-3V3-all",
+    "inherits": "Flashforge Generic PLA",
     "is_custom_defined": "0",
-    "name": "Smartfil Black - 205 - 0.9702 - 0.074",
+    "name": "Smartfil-Recycled-Silver",
     "nozzle_temperature": [
-        "200"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "205"
+        "215"
     ],
     "overhang_fan_threshold": [
         "25%"
     ],
     "pressure_advance": [
-        "0.074"
+        "0.038"
     ],
     "slow_down_layer_time": [
         "5"
     ],
-    "version": "1.9.0.2"
+    "version": "2.3.1.10"
 }

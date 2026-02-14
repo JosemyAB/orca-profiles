@@ -1,0 +1,33 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+    "deretraction_speed": [
+        "0"
+    ],
+    "from": "User",
+    "inherits": "Flashforge AD5X 0.6 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] MESH=[bed_temperature_initial_layer_single]\nM190 S[bed_temperature_initial_layer_single]\nM104 S[nozzle_temperature_initial_layer]\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]",
+    "name": "Flashforge AD5X 0.6 nozzle - zmod",
+    "print_host": "192.168.1.24:7125",
+    "printer_settings_id": "Flashforge AD5X 0.6 nozzle - zmod",
+    "retract_length_toolchange": [
+        "2"
+    ],
+    "retraction_length": [
+        "0.5"
+    ],
+    "retraction_minimum_travel": [
+        "2"
+    ],
+    "retraction_speed": [
+        "30"
+    ],
+    "version": "2.3.1.10",
+    "z_hop": [
+        "0.2"
+    ],
+    "z_hop_types": [
+        "Normal Lift"
+    ]
+}

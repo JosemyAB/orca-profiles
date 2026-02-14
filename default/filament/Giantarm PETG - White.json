@@ -1,12 +1,12 @@
 {
-    "default_filament_colour": [
-        "#000000"
+    "close_fan_the_first_x_layers": [
+        "5"
     ],
-    "enable_pressure_advance": [
-        "1"
+    "default_filament_colour": [
+        "#FFFFFF"
     ],
     "fan_max_speed": [
-        "10"
+        "30"
     ],
     "fan_min_speed": [
         "0"
@@ -15,50 +15,53 @@
         "17"
     ],
     "filament_deretraction_speed": [
-        "35"
+        "50"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "20"
-    ],
-    "filament_notes": [
-        "Switched flow from 0.995 to 0.9"
+        "23"
     ],
     "filament_retraction_length": [
-        "1.5"
+        "0.6"
     ],
     "filament_retraction_minimum_travel": [
         "1"
     ],
     "filament_retraction_speed": [
-        "35"
+        "50"
     ],
     "filament_settings_id": [
-        "Giantarm PETG @Ender-3V3-KE"
+        "Giantarm PETG - White"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=18"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=2"
     ],
     "filament_vendor": [
         "Giantarm"
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "7"
+        "10"
     ],
     "hot_plate_temp": [
-        "65"
+        "75"
     ],
-    "inherits": "Creality Generic PETG @Ender-3V3-all",
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "inherits": "Flashforge Generic PETG",
     "is_custom_defined": "0",
-    "name": "Giantarm PETG @Ender-3V3-KE",
+    "name": "Giantarm PETG - White",
     "nozzle_temperature": [
-        "235"
+        "245"
     ],
     "nozzle_temperature_initial_layer": [
-        "240"
+        "245"
     ],
     "nozzle_temperature_range_high": [
         "250"
@@ -66,14 +69,17 @@
     "nozzle_temperature_range_low": [
         "230"
     ],
-    "overhang_fan_speed": [
-        "100"
-    ],
-    "pressure_advance": [
-        "0.105"
+    "slow_down_layer_time": [
+        "5"
     ],
     "slow_down_min_speed": [
         "20"
     ],
-    "version": "2.1.1.0"
+    "support_material_interface_fan_speed": [
+        "1"
+    ],
+    "temperature_vitrification": [
+        "80"
+    ],
+    "version": "2.3.1.10"
 }
