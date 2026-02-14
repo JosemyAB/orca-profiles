@@ -1,0 +1,44 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+    "deretraction_speed": [
+        "0"
+    ],
+    "from": "User",
+    "inherits": "Flashforge AD5X 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_max_junction_deviation": [
+        "1"
+    ],
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] MESH=[bed_temperature_initial_layer_single]\nM190 S[bed_temperature_initial_layer_single]\nM104 S[nozzle_temperature_initial_layer]\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]",
+    "name": "Flashforge AD5X 0.4 nozzle - zmod",
+    "print_host": "192.168.1.24:7125",
+    "printer_notes": "\n;G1 Z2 F6000 ;nozzle up 0.2\n; Mover a zona de purga (fuera de la cama)\nG1 X60 Y-1 Z0.28 F9000\n\n; --- Purge line optimized for PLA & PETG (0.4 nozzle) ---\n; Línea lenta y simétrica para estabilizar el flujo\nG1 X180 E15 F900\nG0 Y-1.4\nG1 X100 E15 F900\nG92 E0 ;reset extruder",
+    "printer_settings_id": "Flashforge AD5X 0.4 nozzle - zmod",
+    "printer_structure": "corexy",
+    "retract_length_toolchange": [
+        "2"
+    ],
+    "retract_restart_extra_toolchange": [
+        "-0"
+    ],
+    "retraction_length": [
+        "0.5"
+    ],
+    "retraction_minimum_travel": [
+        "2"
+    ],
+    "retraction_speed": [
+        "30"
+    ],
+    "support_multi_bed_types": "0",
+    "thumbnails": "140x110/PNG, 64x64/PNG",
+    "time_cost": "0.12",
+    "version": "2.3.1.10",
+    "z_hop": [
+        "0.2"
+    ],
+    "z_hop_types": [
+        "Normal Lift"
+    ]
+}

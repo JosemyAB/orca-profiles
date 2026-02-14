@@ -1,12 +1,9 @@
 {
     "close_fan_the_first_x_layers": [
-        "5"
+        "2"
     ],
     "default_filament_colour": [
-        "#800080"
-    ],
-    "enable_pressure_advance": [
-        "1"
+        "#CC3333"
     ],
     "fan_cooling_layer_time": [
         "30"
@@ -17,30 +14,27 @@
     "fan_min_speed": [
         "30"
     ],
-    "filament_cost": [
-        "10.5"
-    ],
     "filament_density": [
         "1.25"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
     ],
     "filament_max_volumetric_speed": [
         "21"
     ],
-    "filament_notes": [
-        "Volumetric speed +25"
-    ],
     "filament_settings_id": [
-        "Smartfil Purple"
+        "Smartfil-Recycled-Red Glitter"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=22"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=5"
+    ],
+    "filament_vendor": [
+        "Smartfil"
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "15"
+        "7"
     ],
     "hot_plate_temp": [
         "60"
@@ -48,26 +42,20 @@
     "hot_plate_temp_initial_layer": [
         "60"
     ],
-    "inherits": "Creality Generic PLA @Ender-3V3-all",
+    "inherits": "Flashforge Generic PLA",
     "is_custom_defined": "0",
-    "name": "Smartfil Purple",
+    "name": "Smartfil-Recycled-Red Glitter",
     "nozzle_temperature": [
-        "200"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "205"
+        "215"
     ],
     "overhang_fan_threshold": [
         "25%"
     ],
     "pressure_advance": [
-        "0.074"
+        "0.038"
     ],
     "slow_down_layer_time": [
         "5"
     ],
-    "slow_down_min_speed": [
-        "15"
-    ],
-    "version": "1.9.0.2"
+    "version": "2.3.1.10"
 }

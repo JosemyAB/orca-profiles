@@ -1,79 +1,65 @@
 {
-    "close_fan_the_first_x_layers": [
-        "0"
-    ],
+    "compatible_printers": [],
     "default_filament_colour": [
         "#FFFFFF"
+    ],
+    "enable_pressure_advance": [
+        "1"
     ],
     "fan_cooling_layer_time": [
         "30"
     ],
     "fan_max_speed": [
-        "70"
+        "30"
     ],
     "fan_min_speed": [
-        "50"
+        "20"
     ],
     "filament_density": [
         "1.21"
-    ],
-    "filament_deretraction_speed": [
-        "50"
     ],
     "filament_end_gcode": [
         "; filament end gcode \nCLEAR_ACTIVE_SPOOL\n"
     ],
     "filament_flow_ratio": [
-        "1.15"
-    ],
-    "filament_retract_when_changing_layer": [
-        "0"
-    ],
-    "filament_retraction_length": [
-        "0"
-    ],
-    "filament_retraction_length": [
-        "3.5"
-    ],
-    "filament_retraction_speed": [
-        "50"
+        "1.06"
     ],
     "filament_settings_id": [
-        "SmartMaterials TPU 93A @Ender-3V3-all"
+        "Smartfil TPU 93A - White"
     ],
     "filament_start_gcode": [
         "; filament start gcode\nSET_ACTIVE_SPOOL ID=6"
     ],
     "filament_vendor": [
-        "Smart Materials"
+        "Smartfil"
     ],
     "filament_z_hop": [
-        "0"
+        "0.4"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "5"
+    ],
     "hot_plate_temp": [
-        "40"
+        "35"
     ],
     "hot_plate_temp_initial_layer": [
-        "40"
+        "35"
     ],
     "inherits": "Creality Generic TPU @Ender-3V3-all",
     "is_custom_defined": "0",
-    "name": "SmartMaterials TPU 93A @Ender-3V3-all",
-    "nozzle_temperature": [
-        "225"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "225"
-    ],
+    "name": "Smartfil TPU 93A - White",
     "nozzle_temperature_range_high": [
-        "235"
+        "240"
     ],
     "nozzle_temperature_range_low": [
-        "210"
+        "220"
+    ],
+    "overhang_fan_speed": [
+        "40"
     ],
     "pressure_advance": [
-        "0"
+        "0.302"
     ],
     "version": "2.2.0.4"
 }
