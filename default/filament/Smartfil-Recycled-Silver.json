@@ -18,7 +18,7 @@
         "1.25"
     ],
     "filament_end_gcode": [
-        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode"
     ],
     "filament_max_volumetric_speed": [
         "21"

@@ -8,17 +8,11 @@
     "fan_cooling_layer_time": [
         "30"
     ],
-    "fan_max_speed": [
-        "90"
-    ],
-    "fan_min_speed": [
-        "30"
-    ],
     "filament_density": [
         "1.25"
     ],
     "filament_end_gcode": [
-        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode"
     ],
     "filament_max_volumetric_speed": [
         "21"

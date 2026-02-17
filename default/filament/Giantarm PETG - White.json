@@ -18,7 +18,7 @@
         "50"
     ],
     "filament_end_gcode": [
-        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode"
     ],
     "filament_flow_ratio": [
         "0.95"

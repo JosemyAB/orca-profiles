@@ -3,7 +3,7 @@
         "2"
     ],
     "default_filament_colour": [
-        "#FF0000"
+        "#0033FF"
     ],
     "fan_cooling_layer_time": [
         "30"
@@ -12,7 +12,7 @@
         "90"
     ],
     "fan_min_speed": [
-        "70"
+        "30"
     ],
     "filament_density": [
         "1.25"
@@ -24,10 +24,10 @@
         "21"
     ],
     "filament_settings_id": [
-        "Creality-Red"
+        "Smartfil-Recycled-Signal Blue"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=15"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=7"
     ],
     "filament_vendor": [
         "Smartfil"
@@ -44,11 +44,8 @@
     ],
     "inherits": "Flashforge Generic PLA",
     "is_custom_defined": "0",
-    "name": "Creality-Red",
+    "name": "Smartfil-Recycled-Signal Blue",
     "nozzle_temperature": [
-        "210"
-    ],
-    "nozzle_temperature_initial_layer": [
         "215"
     ],
     "overhang_fan_threshold": [
@@ -59,9 +56,6 @@
     ],
     "slow_down_layer_time": [
         "5"
-    ],
-    "slow_down_min_speed": [
-        "10"
     ],
     "version": "2.3.1.10"
 }
