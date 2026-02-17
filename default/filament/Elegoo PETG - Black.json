@@ -1,0 +1,88 @@
+{
+    "close_fan_the_first_x_layers": [
+        "5"
+    ],
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "fan_max_speed": [
+        "70"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cost": [
+        "17"
+    ],
+    "filament_deretraction_speed": [
+        "50"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+    ],
+    "filament_flow_ratio": [
+        "0.99"
+    ],
+    "filament_max_volumetric_speed": [
+        "23"
+    ],
+    "filament_retraction_length": [
+        "0.6"
+    ],
+    "filament_retraction_minimum_travel": [
+        "1"
+    ],
+    "filament_retraction_speed": [
+        "50"
+    ],
+    "filament_settings_id": [
+        "Elegoo PETG - Black"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=25"
+    ],
+    "filament_vendor": [
+        "Elegoo"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "10"
+    ],
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "inherits": "Flashforge Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Elegoo PETG - Black",
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "nozzle_temperature_range_high": [
+        "250"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "pressure_advance": [
+        "0.056"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "slow_down_min_speed": [
+        "20"
+    ],
+    "support_material_interface_fan_speed": [
+        "1"
+    ],
+    "temperature_vitrification": [
+        "80"
+    ],
+    "version": "2.3.1.10"
+}
