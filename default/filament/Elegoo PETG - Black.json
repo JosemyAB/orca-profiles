@@ -3,10 +3,10 @@
         "5"
     ],
     "default_filament_colour": [
-        "#FFFFFF"
+        "#000000"
     ],
     "fan_max_speed": [
-        "60"
+        "70"
     ],
     "fan_min_speed": [
         "30"
@@ -20,14 +20,11 @@
     "filament_end_gcode": [
         "; filament end gcode"
     ],
-    "filament_extruder_variant": [
-        "Direct Drive Standard"
-    ],
     "filament_flow_ratio": [
-        "0.95"
+        "0.99"
     ],
     "filament_max_volumetric_speed": [
-        "19"
+        "21"
     ],
     "filament_retraction_length": [
         "0.6"
@@ -39,31 +36,26 @@
         "50"
     ],
     "filament_settings_id": [
-        "Giantarm PETG - White"
+        "Elegoo PETG - Black"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=2"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=25"
     ],
     "filament_vendor": [
-        "Giantarm"
+        "Elegoo"
     ],
     "from": "User",
     "full_fan_speed_layer": [
         "10"
     ],
-    "hot_plate_temp": [
-        "75"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "75"
-    ],
     "inherits": "Flashforge Generic PETG",
-    "name": "Giantarm PETG - White",
+    "is_custom_defined": "0",
+    "name": "Elegoo PETG - Black",
     "nozzle_temperature": [
-        "230"
+        "240"
     ],
     "nozzle_temperature_initial_layer": [
-        "235"
+        "245"
     ],
     "nozzle_temperature_range_high": [
         "250"
@@ -74,11 +66,14 @@
     "overhang_fan_speed": [
         "100"
     ],
+    "pressure_advance": [
+        "0.056"
+    ],
     "slow_down_layer_time": [
         "5"
     ],
     "slow_down_min_speed": [
-        "20"
+        "15"
     ],
     "support_material_interface_fan_speed": [
         "1"

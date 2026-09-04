@@ -3,7 +3,7 @@
         "2"
     ],
     "default_filament_colour": [
-        "#CCCCCC"
+        "#999999"
     ],
     "fan_cooling_layer_time": [
         "30"
@@ -18,7 +18,10 @@
         "1.25"
     ],
     "filament_end_gcode": [
-        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "filament_max_volumetric_speed": [
         "21"
@@ -27,7 +30,7 @@
         "Smartfil-Recycled-Silver"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=9"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=8"
     ],
     "filament_vendor": [
         "Smartfil"
@@ -43,10 +46,12 @@
         "60"
     ],
     "inherits": "Flashforge Generic PLA",
-    "is_custom_defined": "0",
     "name": "Smartfil-Recycled-Silver",
     "nozzle_temperature": [
-        "215"
+        "205"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
     ],
     "overhang_fan_threshold": [
         "25%"

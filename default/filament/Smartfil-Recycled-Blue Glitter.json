@@ -18,7 +18,10 @@
         "1.25"
     ],
     "filament_end_gcode": [
-        "; filament end gcode\nCLEAR_ACTIVE_SPOOL"
+        "; filament end gcode"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "filament_max_volumetric_speed": [
         "21"
@@ -43,7 +46,6 @@
         "60"
     ],
     "inherits": "Flashforge Generic PLA",
-    "is_custom_defined": "0",
     "name": "Smartfil-Recycled-Blue Glitter",
     "nozzle_temperature": [
         "215"

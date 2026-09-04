@@ -7,10 +7,15 @@
     "inherits": "Flashforge AD5X 0.6 nozzle",
     "is_custom_defined": "0",
     "machine_end_gcode": "END_PRINT",
+    "machine_load_filament_time": "35",
     "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] MESH=[bed_temperature_initial_layer_single]\nM190 S[bed_temperature_initial_layer_single]\nM104 S[nozzle_temperature_initial_layer]\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]",
+    "machine_unload_filament_time": "35",
     "name": "Flashforge AD5X 0.6 nozzle - zmod",
     "print_host": "192.168.1.24:7125",
+    "printer_notes": "Z-OFFSET BOQUILLA 0.6 -> -0.012",
     "printer_settings_id": "Flashforge AD5X 0.6 nozzle - zmod",
+    "printer_structure": "corexy",
+    "purge_in_prime_tower": "1",
     "retract_length_toolchange": [
         "2"
     ],
@@ -23,6 +28,9 @@
     "retraction_speed": [
         "30"
     ],
+    "support_multi_bed_types": "0",
+    "thumbnails": "140x110/PNG, 64x64/PNG",
+    "time_cost": "0.12",
     "version": "2.3.1.10",
     "z_hop": [
         "0.2"

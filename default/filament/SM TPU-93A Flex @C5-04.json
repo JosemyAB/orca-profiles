@@ -1,0 +1,66 @@
+{
+	"default_filament_colour": [
+		"#FFFFFF"
+	],
+	"fan_cooling_layer_time": [
+		"30"
+	],
+	"fan_max_speed": [
+		"30"
+	],
+	"fan_min_speed": [
+		"20"
+	],
+	"filament_deretraction_speed": [
+		"40"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"3"
+	],
+	"filament_notes": [
+		"PA default 0.0225"
+	],
+	"filament_retraction_speed": [
+		"60"
+	],
+	"filament_settings_id": [
+		"SM TPU-93A Flex @C5-04"
+	],
+	"filament_start_gcode": [
+		"; filament start gcode\nSET_ACTIVE_SPOOL ID=6"
+	],
+	"from": "User",
+	"full_fan_speed_layer": [
+		"5"
+	],
+	"hot_plate_temp": [
+		"35"
+	],
+	"inherits": "Smart Materials TPU-90A Flex @Flashforge Creator 5 0.4 nozzle",
+	"name": "SM TPU-93A Flex @C5-04",
+	"nozzle_temperature_range_high": [
+		"240"
+	],
+	"nozzle_temperature_range_low": [
+		"220"
+	],
+	"pressure_advance": [
+		"0.026"
+	],
+	"required_nozzle_HRC": [
+		"0"
+	],
+	"slow_down_layer_time": [
+		"2"
+	],
+	"slow_down_min_speed": [
+		"10"
+	],
+	"temperature_vitrification": [
+		"60"
+	],
+	"version": "2.4.0.4"
+}
