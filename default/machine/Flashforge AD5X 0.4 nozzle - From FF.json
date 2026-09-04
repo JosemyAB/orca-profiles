@@ -6,6 +6,12 @@
     "inherits": "Flashforge AD5X 0.4 nozzle",
     "is_custom_defined": "0",
     "name": "Flashforge AD5X 0.4 nozzle - From FF",
+    "printable_area": [
+        "0x0",
+        "300x0",
+        "300x300",
+        "0x300"
+    ],
     "printer_settings_id": "Flashforge AD5X 0.4 nozzle - From FF",
     "printer_structure": "corexy",
     "retract_length_toolchange": [

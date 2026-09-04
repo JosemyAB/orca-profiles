@@ -5,17 +5,22 @@
     ],
     "from": "User",
     "inherits": "Flashforge AD5X 0.4 nozzle",
-    "is_custom_defined": "0",
     "machine_end_gcode": "END_PRINT",
-    "machine_load_filament_time": "35",
+    "machine_load_filament_time": "42",
     "machine_max_junction_deviation": [
         "1"
     ],
     "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] MESH=[bed_temperature_initial_layer_single]\nM190 S[bed_temperature_initial_layer_single]\nM104 S[nozzle_temperature_initial_layer]\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]",
-    "machine_unload_filament_time": "35",
+    "machine_unload_filament_time": "33",
     "name": "Flashforge AD5X 0.4 nozzle - zmod",
     "print_host": "192.168.1.24:7125",
-    "printer_notes": "\n;G1 Z2 F6000 ;nozzle up 0.2\n; Mover a zona de purga (fuera de la cama)\nG1 X60 Y-1 Z0.28 F9000\n\n; --- Purge line optimized for PLA & PETG (0.4 nozzle) ---\n; Línea lenta y simétrica para estabilizar el flujo\nG1 X180 E15 F900\nG0 Y-1.4\nG1 X100 E15 F900\nG92 E0 ;reset extruder",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_notes": "Cada caca son 0.123g de filamento\n\nNo poop configuracion:\n- Activar el plugin de nopoop con ENABLE_PLUGIN name=nopoop Importante tener Guppyscreen  (DISPLAY_OFF seguir instrucciones oficiales del plugin)\n- Re activar usar la papelera: SAVE_ZMOD_DATA USE_TRASH_ON_PRINT=1. Si no activas esto, tienes que hacer mas grande la torre de purga. Puede tener sentido si los flushing volumes que pones en orca son grandes\nEditar el fichero /config/mod_data/filaments.json\n\"PLA\": {\n        \"temp\": 210,\n        \"filament_unload_before_cutting\": 26, -> cuanto retrocede antes de cortar (mm)\n        \"filament_unload_after_cutting\": 5,\n        \"filament_unload_after_drop\": 2,\n        \"filament_load_speed\": 300,\n        \"filament_unload_speed\": 600,\n        \"filament_tube_length\": 1000,\n        \"filament_drop_length\": 40, -> cuanto filamento nuevo mete (mm) Este es el ajuste clave. A mas grande, mas caca. Hay que ajustarlo para que cuando termine te quede praticamente el color nuevo.\n        \"filament_drop_length_add\": 45, -> cuanto filamento nuevo mete (extra) cuando cambias de material (mm, se suma al anterior)\n        \"nozzle_cleaning_length\": 70, -> Cuanto sale el fialmento viejo del extrusor (mm) Mayor valor, mas sube = mas tiempo tarda el cambio de color.\n        \"filament_fan_speed\": 102,\n        \"filament_autoinsert_empty_length\": 600,\n        \"filament_autoinsert_full_length\": 550,\n        \"filament_autoinsert_ret_length\": 90,\n        \"filament_autoinsert_speed\": 1200\n    },\nNo hace falta reiniciar cuando se cambian los valores del filament.json\nLuego en Orca Slicre\nPrinter settings -> Multimaterial -> Purge in prime tower enable\nProfile -> Multimaterial -> Prime tower enable. Opcionalmente también podéis marcar Flush into objects infill y/o flush into objects support\nYa con el boton de \"Flushing volumes\" de la sección del filamento ponéis en el multiplicador cuanto filamento va a depositar en la torre *despué* de la caca. La foto que os he mandado es con 0,1",
     "printer_settings_id": "Flashforge AD5X 0.4 nozzle - zmod",
     "printer_structure": "corexy",
     "purge_in_prime_tower": "1",
@@ -26,7 +31,7 @@
         "-0"
     ],
     "retraction_length": [
-        "0.5"
+        "0.4"
     ],
     "retraction_minimum_travel": [
         "2"

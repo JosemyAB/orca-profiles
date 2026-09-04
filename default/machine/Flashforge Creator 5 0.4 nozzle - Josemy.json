@@ -1,0 +1,44 @@
+{
+	"bed_custom_model": "/Applications/OrcaSlicer.app/Contents/Resources/profiles/Flashforge/flashforge_c5_buildplate_model.stl",
+	"bed_custom_texture": "/Applications/OrcaSlicer.app/Contents/Resources/profiles/Flashforge/flashforge_c5_buildplate_texture.png",
+	"flashforge_serial_number": "SNMUNF9509169",
+	"from": "User",
+	"host_type": "flashforge",
+	"inherits": "Flashforge Creator 5 0.4 nozzle",
+	"name": "Flashforge Creator 5 0.4 nozzle - Josemy",
+	"print_host": "192.168.1.24",
+	"printable_area": [
+		"0x0",
+		"257x0",
+		"257x260",
+		"0x260"
+	],
+	"printer_extruder_id": [
+		"1",
+		"2",
+		"3",
+		"4"
+	],
+	"printer_extruder_variant": [
+		"Direct Drive Standard",
+		"Direct Drive Standard",
+		"Direct Drive Standard",
+		"Direct Drive Standard"
+	],
+	"printer_settings_id": "Flashforge Creator 5 0.4 nozzle - Josemy",
+	"printhost_apikey": "cbmsj24r",
+	"retraction_length": [
+		"0.4",
+		"0.4",
+		"0.4",
+		"0.4"
+	],
+	"support_multi_bed_types": "0",
+	"version": "2.4.0.4",
+	"z_hop": [
+		"0.2",
+		"0.2",
+		"0.2",
+		"0.2"
+	]
+}
