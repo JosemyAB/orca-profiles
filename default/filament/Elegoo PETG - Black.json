@@ -24,7 +24,7 @@
         "0.99"
     ],
     "filament_max_volumetric_speed": [
-        "23"
+        "21"
     ],
     "filament_retraction_length": [
         "0.6"
@@ -48,17 +48,11 @@
     "full_fan_speed_layer": [
         "10"
     ],
-    "hot_plate_temp": [
-        "75"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "75"
-    ],
     "inherits": "Flashforge Generic PETG",
     "is_custom_defined": "0",
     "name": "Elegoo PETG - Black",
     "nozzle_temperature": [
-        "245"
+        "240"
     ],
     "nozzle_temperature_initial_layer": [
         "245"
@@ -69,6 +63,9 @@
     "nozzle_temperature_range_low": [
         "230"
     ],
+    "overhang_fan_speed": [
+        "100"
+    ],
     "pressure_advance": [
         "0.056"
     ],
@@ -76,7 +73,7 @@
         "5"
     ],
     "slow_down_min_speed": [
-        "20"
+        "15"
     ],
     "support_material_interface_fan_speed": [
         "1"

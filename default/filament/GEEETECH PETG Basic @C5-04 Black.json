@@ -1,0 +1,51 @@
+{
+	"default_filament_colour": [
+		"#000000"
+	],
+	"filament_cost": [
+		"10"
+	],
+	"filament_deretraction_speed": [
+		"50"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"19"
+	],
+	"filament_notes": [
+		"Retraccion OK: 0.6 50 50"
+	],
+	"filament_retraction_length": [
+		"0.5"
+	],
+	"filament_retraction_minimum_travel": [
+		"1"
+	],
+	"filament_retraction_speed": [
+		"50"
+	],
+	"filament_settings_id": [
+		"GEEETECH PETG Basic @C5-04 Black"
+	],
+	"filament_start_gcode": [
+		"; filament start gcode\nSET_ACTIVE_SPOOL ID=27"
+	],
+	"from": "User",
+	"inherits": "GEEETECH PETG Basic @Flashforge Creator 5 0.4 nozzle",
+	"name": "GEEETECH PETG Basic @C5-04 Black",
+	"nozzle_temperature_range_high": [
+		"250"
+	],
+	"nozzle_temperature_range_low": [
+		"230"
+	],
+	"required_nozzle_HRC": [
+		"0"
+	],
+	"temperature_vitrification": [
+		"80"
+	],
+	"version": "2.4.0.4"
+}

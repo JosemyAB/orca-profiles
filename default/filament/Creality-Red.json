@@ -1,15 +1,9 @@
 {
-    "close_fan_the_first_x_layers": [
-        "2"
-    ],
     "default_filament_colour": [
         "#FF0000"
     ],
     "fan_cooling_layer_time": [
         "30"
-    ],
-    "fan_max_speed": [
-        "90"
     ],
     "fan_min_speed": [
         "70"
@@ -17,11 +11,23 @@
     "filament_density": [
         "1.25"
     ],
+    "filament_deretraction_speed": [
+        "15"
+    ],
     "filament_end_gcode": [
         "; filament end gcode"
     ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
     "filament_max_volumetric_speed": [
         "21"
+    ],
+    "filament_retraction_length": [
+        "0.2"
     ],
     "filament_settings_id": [
         "Creality-Red"
@@ -30,12 +36,9 @@
         "; filament start gcode\nSET_ACTIVE_SPOOL ID=15"
     ],
     "filament_vendor": [
-        "Smartfil"
+        "Creality"
     ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "7"
-    ],
     "hot_plate_temp": [
         "60"
     ],
@@ -43,7 +46,6 @@
         "60"
     ],
     "inherits": "Flashforge Generic PLA",
-    "is_custom_defined": "0",
     "name": "Creality-Red",
     "nozzle_temperature": [
         "210"
@@ -55,7 +57,7 @@
         "25%"
     ],
     "pressure_advance": [
-        "0.038"
+        "0.06"
     ],
     "slow_down_layer_time": [
         "5"

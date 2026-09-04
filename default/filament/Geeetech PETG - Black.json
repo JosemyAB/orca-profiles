@@ -6,10 +6,10 @@
         "#000000"
     ],
     "fan_max_speed": [
-        "30"
+        "50"
     ],
     "fan_min_speed": [
-        "0"
+        "30"
     ],
     "filament_cost": [
         "17"
@@ -20,11 +20,14 @@
     "filament_end_gcode": [
         "; filament end gcode"
     ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "filament_flow_ratio": [
-        "0.95"
+        "0.975"
     ],
     "filament_max_volumetric_speed": [
-        "23"
+        "19"
     ],
     "filament_retraction_length": [
         "0.6"
@@ -36,32 +39,28 @@
         "50"
     ],
     "filament_settings_id": [
-        "Giantarm PETG - Black"
+        "Geeetech PETG - Black"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_ACTIVE_SPOOL ID=20"
+        "; filament start gcode\nSET_ACTIVE_SPOOL ID=27"
     ],
     "filament_vendor": [
-        "Giantarm"
+        "Geetech"
     ],
     "from": "User",
     "full_fan_speed_layer": [
         "10"
     ],
-    "hot_plate_temp": [
-        "75"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "75"
-    ],
     "inherits": "Flashforge Generic PETG",
-    "is_custom_defined": "0",
-    "name": "Giantarm PETG - Black",
+    "internal_bridge_fan_speed": [
+        "100"
+    ],
+    "name": "Geeetech PETG - Black",
     "nozzle_temperature": [
-        "245"
+        "230"
     ],
     "nozzle_temperature_initial_layer": [
-        "245"
+        "235"
     ],
     "nozzle_temperature_range_high": [
         "250"
@@ -69,11 +68,17 @@
     "nozzle_temperature_range_low": [
         "230"
     ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "pressure_advance": [
+        "0.056"
+    ],
     "slow_down_layer_time": [
         "5"
     ],
     "slow_down_min_speed": [
-        "20"
+        "15"
     ],
     "support_material_interface_fan_speed": [
         "1"

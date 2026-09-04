@@ -1,6 +1,6 @@
 {
     "close_fan_the_first_x_layers": [
-        "2"
+        "5"
     ],
     "default_filament_colour": [
         "#00CC33"
@@ -34,7 +34,7 @@
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "7"
+        "10"
     ],
     "hot_plate_temp": [
         "60"
@@ -46,7 +46,7 @@
     "is_custom_defined": "0",
     "name": "Smartfil-Recycled-Green",
     "nozzle_temperature": [
-        "210"
+        "215"
     ],
     "nozzle_temperature_initial_layer": [
         "215"

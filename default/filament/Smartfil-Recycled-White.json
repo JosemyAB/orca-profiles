@@ -8,6 +8,12 @@
     "fan_cooling_layer_time": [
         "30"
     ],
+    "fan_max_speed": [
+        "90"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
     "filament_density": [
         "1.25"
     ],
@@ -40,6 +46,9 @@
     "is_custom_defined": "0",
     "name": "Smartfil-Recycled-White",
     "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
         "215"
     ],
     "overhang_fan_threshold": [
