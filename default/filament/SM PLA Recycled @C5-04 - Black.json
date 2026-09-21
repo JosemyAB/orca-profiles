@@ -4,7 +4,7 @@
 	],
 	"compatible_printers": [],
 	"default_filament_colour": [
-		"#996633"
+		"#000000"
 	],
 	"fan_cooling_layer_time": [
 		"30"
@@ -25,10 +25,10 @@
 		"21"
 	],
 	"filament_settings_id": [
-		"SM PLA Recycled @C5-04 - Brown"
+		"SM PLA Recycled @C5-04 - Black"
 	],
 	"filament_start_gcode": [
-		"; filament start gcode\nSET_ACTIVE_SPOOL ID=23"
+		"; filament start gcode\nSET_ACTIVE_SPOOL ID=13"
 	],
 	"from": "User",
 	"full_fan_speed_layer": [
@@ -41,7 +41,7 @@
 		"60"
 	],
 	"inherits": "Smart Materials PLA Recycled @Flashforge Creator 5 0.4 nozzle - Josemy",
-	"name": "SM PLA Recycled @C5-04 - Brown",
+	"name": "SM PLA Recycled @C5-04 - Black",
 	"nozzle_temperature": [
 		"210"
 	],

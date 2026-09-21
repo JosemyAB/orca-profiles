@@ -1,4 +1,5 @@
 {
+	"compatible_printers": [],
 	"default_filament_colour": [
 		"#FFFFFF"
 	],

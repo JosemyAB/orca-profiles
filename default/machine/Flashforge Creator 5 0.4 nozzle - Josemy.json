@@ -25,8 +25,21 @@
 		"Direct Drive Standard",
 		"Direct Drive Standard"
 	],
+	"printer_notes": "Extruder 1. Retraction length: 3. Extra length on restart: -0.8",
 	"printer_settings_id": "Flashforge Creator 5 0.4 nozzle - Josemy",
 	"printhost_apikey": "cbmsj24r",
+	"retract_length_toolchange": [
+		"2",
+		"2",
+		"2",
+		"2"
+	],
+	"retract_restart_extra_toolchange": [
+		"-0.8",
+		"-0.8",
+		"-0.8",
+		"-0.8"
+	],
 	"retraction_length": [
 		"0.4",
 		"0.4",
@@ -34,6 +47,7 @@
 		"0.4"
 	],
 	"support_multi_bed_types": "0",
+	"time_cost": "0.12",
 	"version": "2.4.0.4",
 	"z_hop": [
 		"0.2",
