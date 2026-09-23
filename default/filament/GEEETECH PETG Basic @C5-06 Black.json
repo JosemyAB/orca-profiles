@@ -1,7 +1,7 @@
 {
 	"compatible_printers": [
-		"Flashforge Creator 5 0.4 nozzle",
-		"Flashforge Creator 5 0.4 nozzle - Josemy"
+		"Flashforge Creator 5 - 0.6 - Josemy",
+		"Flashforge Creator 5 0.6 nozzle"
 	],
 	"default_filament_colour": [
 		"#000000"
@@ -22,7 +22,7 @@
 		"Retraccion OK: 0.6 50 50"
 	],
 	"filament_retraction_length": [
-		"0.6"
+		"1"
 	],
 	"filament_retraction_minimum_travel": [
 		"1"
@@ -31,7 +31,7 @@
 		"50"
 	],
 	"filament_settings_id": [
-		"GEEETECH PETG Basic @C5-04 Black"
+		"GEEETECH PETG Basic @C5-06 Black"
 	],
 	"filament_start_gcode": [
 		"; filament start gcode\nSET_ACTIVE_SPOOL ID=27"
@@ -41,7 +41,7 @@
 	"internal_bridge_fan_speed": [
 		"100"
 	],
-	"name": "GEEETECH PETG Basic @C5-04 Black",
+	"name": "GEEETECH PETG Basic @C5-06 Black",
 	"nozzle_temperature_range_high": [
 		"250"
 	],

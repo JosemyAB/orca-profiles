@@ -3,11 +3,7 @@
 		"2"
 	],
 	"compatible_printers": [
-		"Flashforge Creator 5 - 0.6 - Josemy",
-		"Flashforge Creator 5 0.4 nozzle",
-		"Flashforge Creator 5 0.4 nozzle - Josemy",
-		"Flashforge Creator 5 0.6 nozzle",
-		"Flashforge Creator 5 0.8 nozzle"
+		"Flashforge Creator 5 - 0.25 - Josemy"
 	],
 	"default_filament_colour": [
 		"#FFFFFF"
@@ -27,11 +23,14 @@
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
+	"filament_flow_ratio": [
+		"1.05"
+	],
 	"filament_max_volumetric_speed": [
 		"21"
 	],
 	"filament_settings_id": [
-		"SM PLA Recycled @C5-04 - Cold White"
+		"SM PLA Recycled @C5-02 - Cold White"
 	],
 	"filament_start_gcode": [
 		"; filament start gcode\nSET_ACTIVE_SPOOL ID=3"
@@ -47,7 +46,7 @@
 		"60"
 	],
 	"inherits": "Smart Materials PLA Recycled @Flashforge Creator 5 0.4 nozzle - Josemy",
-	"name": "SM PLA Recycled @C5-04 - Cold White",
+	"name": "SM PLA Recycled @C5-02 - Cold White",
 	"nozzle_temperature": [
 		"210"
 	],
