@@ -6,7 +6,19 @@
 	"from": "User",
 	"host_type": "flashforge",
 	"inherits": "Flashforge Creator 5 0.4 nozzle",
-	"name": "Flashforge Creator 5 0.4 nozzle - Josemy",
+	"max_layer_height": [
+		"0.42",
+		"0.42",
+		"0.42",
+		"0.42"
+	],
+	"name": "Flashforge Creator 5 - 0.6 - Josemy",
+	"nozzle_diameter": [
+		"0.6",
+		"0.6",
+		"0.6",
+		"0.6"
+	],
 	"print_host": "192.168.1.24",
 	"printable_area": [
 		"0x0",
@@ -27,7 +39,7 @@
 		"Direct Drive Standard"
 	],
 	"printer_notes": "Extruder 1. Retraction length: 3. Extra length on restart: -0.8",
-	"printer_settings_id": "Flashforge Creator 5 0.4 nozzle - Josemy",
+	"printer_settings_id": "Flashforge Creator 5 - 0.6 - Josemy",
 	"printhost_apikey": "cbmsj24r",
 	"retract_length_toolchange": [
 		"2",
